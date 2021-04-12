@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Tribute</title>
+        <style type="text/css" media="screen">
+            * {
+                box-sizing: border-box;
+            }
+            html, body, div, img {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 100%;
+                font: inherit;
+            }
+            body {
+                line-height: 1;
+            }
+            h1 {
+                font-size: 3.0em;
+            }
+            .container {
+                display:  flex;
+                flex-flow: column wrap;
+                justify-content: center;
+            }
+            .box {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            .box-center {
+                align-items:  center;
+                justify-content: center;
+            }
+            .title {
+                color: #F2F2F2;
+                background-color: #383673;
+                margin-bottom: 1em;
+            }
+            .img-responsive {
+                max-width: 100%;
+                display: block;
+                height: auto;
+                margin: 0 auto;
+            } 
+            .box-info {
+                margin: 1em;
+                text-align: justify;
+            }
+        </style>
+    </head>
+    <body>
+        <main id="main" class="container">
+            <div class="title box box-center">
+                <h1 id="title" >Stan Lee</h1>
+            </div>
+            <div id="img-div">
+                <img id="image" class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Stan_Lee_by_Gage_Skidmore_3.jpg/457px-Stan_Lee_by_Gage_Skidmore_3.jpg" alt="Stan Lee">
+                <div id="img-caption" class="box box-center">Stan Lee by Gage Skidmore</div>
+            </div>
+            <div id="tribute-info"  class="box box-info" >
+                <p> 
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                </p>
+                <p> 
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Stan_Lee" target="_blank">more</a>
+                </p>
+            </div>
+        </main>
+    </body>
+</html>
