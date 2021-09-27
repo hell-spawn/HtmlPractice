@@ -1,0 +1,46 @@
+/*
+$gap : 4vh;
+$padding : 4vh;
+$color : #48CAE4;
+$bp : (
+mobile : 480px,
+tablet : 768px,
+desktop : 1440px,
+);
+ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    height: 100vh;
+    background-color: #dfdfdf;
+    display: flex;
+}
+
+.box-1 {
+    width:  120px;
+    height:  120px;
+    background-color: skyblue;
+    border:  2px solid black;
+    /*Center*/
+    /*
+    left: 50%;
+    transform:translate(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    */
+    margin:  auto auto;
+
+}
+
